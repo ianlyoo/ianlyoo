@@ -1,6 +1,6 @@
 # Hi, I'm Ian
 
-I'm a college student building practical tools around AI-assisted workflow automation and finance.
+I'm a college student building practical tools around AI-assisted workflow automation, finance, and Android security research.
 
 My current focus is learning by shipping small, useful systems: dashboards, research/report generators, local-first desktop tools, and automation utilities that connect real data with clear user workflows.
 
@@ -8,6 +8,7 @@ My current focus is learning by shipping small, useful systems: dashboards, rese
 
 - AI/AX workflow automation for repetitive research, reporting, and operations
 - Finance tools, especially stock screening, brokerage dashboards, and research packets
+- Android security research, including location-signal simulation and spoofing experiments
 - Local-first apps that are simple enough for non-developers to run
 - Python, JavaScript/TypeScript, C#, Kotlin, FastAPI, Electron, ASP.NET Core, and Android
 
@@ -17,6 +18,7 @@ My current focus is learning by shipping small, useful systems: dashboards, rese
 - [signal-foundry](https://github.com/ianlyoo/signal-foundry): PDF-first stock screener and research packet generator with MCP-ready data tooling.
 - [zoomcheck](https://github.com/ianlyoo/zoomcheck): Zoom attendance dashboard with roster matching, review queues, and a webhook-ready backend.
 - [sat-qbank-exporter-web](https://github.com/ianlyoo/sat-qbank-exporter-web): SAT question bank exporter prepared for Vercel frontend and Render worker deployment.
+- [latebris](https://github.com/ianlyoo/latebris): Android location spoofing research tool for GPS, Wi-Fi, and cell-signal simulation.
 
 ## What I'm Improving
 
