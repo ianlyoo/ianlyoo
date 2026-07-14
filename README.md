@@ -12,16 +12,3 @@ My current focus is learning by shipping small, useful systems: dashboards, rese
 - Local-first apps that are simple enough for non-developers to run
 - Python, JavaScript/TypeScript, C#, Kotlin, FastAPI, Electron, ASP.NET Core, and Android
 
-## Featured Projects
-
-- [koreainv-dashboard](https://github.com/ianlyoo/koreainv-dashboard): Korea Investment Securities dashboard with desktop, Android, and release packaging work.
-- [signal-foundry](https://github.com/ianlyoo/signal-foundry): PDF-first stock screener and research packet generator with MCP-ready data tooling.
-- [zoomcheck](https://github.com/ianlyoo/zoomcheck): Zoom attendance dashboard with roster matching, review queues, and a webhook-ready backend.
-- [sat-qbank-exporter](https://github.com/ianlyoo/sat-qbank-exporter): SAT question bank exporter with a local app, CLI, Vercel frontend setup, and Render worker setup.
-- [latebris](https://github.com/ianlyoo/latebris): Android location spoofing research tool for GPS, Wi-Fi, and cell-signal simulation.
-
-## What I'm Improving
-
-- Writing clearer READMEs and setup guides
-- Adding tests and CI to projects that are becoming portfolio-ready
-- Turning useful prototypes into more polished, reproducible tools
