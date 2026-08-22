@@ -18,8 +18,7 @@ I'm an AI/AX Workflow Automation Engineer focused on LLM Integration & Agentic W
 | [koreainv-dashboard](https://github.com/ianlyoo/koreainv-dashboard) | Personal KIS account dashboard across desktop, web, and Android |
 | [sat-qbank-exporter](https://github.com/ianlyoo/sat-qbank-exporter) | Local-first exporter that turns the College Board question bank into printable PDF sets |
 | [zoomcheck](https://github.com/ianlyoo/zoomcheck) | Zoom attendance dashboard that auto-matches and queues only ambiguous cases |
-| [note](https://github.com/ianlyoo/note) | A local file-locking tool disguised as a memo app |
-| [latebris](https://github.com/ianlyoo/latebris) | Android GPS/Wi-Fi/cell spoofing tool that swaps location signals per preset |
+| [latebris](https://github.com/ianlyoo/latebris) | Android location-signal simulation framework for testing applications that consume GPS, Wi-Fi, and cellular location APIs — security research / QA |
 
 ## Stack
 
