@@ -1,14 +1,12 @@
-# Hi, I'm Ian
+# Hi, I'm Youngin (Ian) Lyoo
 
-I'm a college student who learns by shipping small, useful systems: brokerage
-dashboards, research/report generators, local-first desktop tools, and automation
-utilities that connect real data to clear user workflows.
+I'm an AI/AX Workflow Automation Engineer focused on LLM Integration & Agentic Workflows — building MCP servers, RAG pipelines, and evaluation automation with Python/FastAPI (UC Irvine CE, on leave). I learn by shipping small, useful systems that connect real data to clear user workflows.
 
 ## Current Focus
 
-- AI/AX workflow automation for repetitive research, reporting, and operations
-- Finance tools — stock screening, brokerage dashboards, research packets
-- Android tooling, including GPS/Wi-Fi/cell spoofing for location-signal testing
+- AI/AX workflow automation — MCP servers, RAG pipelines, evaluation automation
+- LLM Integration & Agentic Workflows for repetitive research, reporting, and operations
+- Finance tooling — stock screening, brokerage dashboards, research packets (grounded generation)
 - Local-first apps simple enough for non-developers to run
 
 ## Projects
