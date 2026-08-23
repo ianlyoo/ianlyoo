@@ -16,8 +16,8 @@ Building reliable systems first, then extending into LLM evaluation and RAG oper
 | Project | What it is |
 |---------|-----------|
 | [K-invest](https://github.com/ianlyoo/K-invest) | Read-only investment-data MCP server (Toss, KIS, SEC EDGAR, yfinance, Binance) for web LLMs |
-| [llm-eval-pipeline](https://github.com/ianlyoo/llm-eval-pipeline) | Offline Self-Evolve pipeline: synthetic data → Rule+LLM Judge → lm-eval harness |
-| [rag-ops-console](https://github.com/ianlyoo/rag-ops-console) | Online RAG Ops console: Chroma VectorDB + LangGraph + Sheets feedback loop |
+| [llm-eval-pipeline](https://github.com/ianlyoo/llm-eval-pipeline) | Offline LLM evaluation harness: synthetic data → rule/proxy + optional LLM judge → error analysis |
+| [rag-ops-console](https://github.com/ianlyoo/rag-ops-console) | RAG operations sandbox: Chroma VectorDB + LangGraph + feedback monitoring |
 | [signal-foundry](https://github.com/ianlyoo/signal-foundry) | Stock-screening engine that emits PDF research packets for people and MCP for agents |
 | [koreainv-dashboard](https://github.com/ianlyoo/koreainv-dashboard) | Personal KIS account dashboard across desktop, web, and Android |
 
