@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "description": "Task-driven recommendations; the main agent confirms the selection after reading the actual task.",
+  "profiles": {
+    "fullstack-analytics": {
+      "title": "Analytics + dashboard + workflow",
+      "signals": ["dashboard", "대시보드", "데이터 분석", "data analysis", "시각화", "visualization", "운영자", "administrator", "데이터셋", "dataset", "통계", "analytics", "웹 서비스", "web service"],
+      "agents": ["data-engineer", "optimization-engineer", "frontend-engineer"],
+      "built_in_skills": ["decision-journal", "data-quality", "independent-verification", "optimization-audit", "interface-contract", "submission-gate"],
+      "external_skills": ["impeccable", "react-best-practices", "property-based-testing"],
+      "notes": "If the task contains no optimization, replace the optimization agent with backend-engineer. Keep backend/auth/integration under main otherwise."
+    },
+    "prediction-ml": {
+      "title": "Forecasting, machine learning and evaluation",
+      "signals": ["예측", "prediction", "forecast", "forecasting", "분류", "classification", "회귀", "regression", "훈련", "training", "train", "모델 평가", "machine learning", "시계열", "timeseries", "time series"],
+      "agents": ["data-engineer", "ml-engineer", "verification-engineer"],
+      "built_in_skills": ["decision-journal", "data-quality", "model-evaluation", "independent-verification", "submission-gate"],
+      "external_skills": ["modern-python", "property-based-testing"],
+      "notes": "Prioritize split discipline, leakage detection, sensible baseline, and decision rationale. Add frontend-engineer if the UI is a hard requirement."
+    },
+    "optimization-operations": {
+      "title": "Optimization, scheduling, routing and allocation",
+      "signals": ["최적화", "optimization", "노선", "routing", "route", "스케줄", "scheduling", "배정", "allocation", "차량", "vehicle", "인원 배치", "resource allocation", "제약조건", "constraint", "목적함수", "objective function", "휴리스틱", "heuristic", "simulation", "시뮬레이션"],
+      "agents": ["data-engineer", "optimization-engineer", "verification-engineer"],
+      "built_in_skills": ["decision-journal", "data-quality", "optimization-audit", "independent-verification", "submission-gate"],
+      "external_skills": ["modern-python", "property-based-testing"],
+      "notes": "Define hard constraints separately from soft objectives; verify independently; compare against a baseline. Use frontend agent instead of verification if dashboard is mandatory, with main owning independent verification."
+    },
+    "web-product": {
+      "title": "User-facing web application and design",
+      "signals": ["웹앱", "web app", "웹사이트", "website", "frontend", "프론트엔드", "react", "next.js", "ui", "ux", "화면", "디자인", "로그인", "login", "사용자", "user interface"],
+      "agents": ["frontend-engineer", "backend-engineer", "verification-engineer"],
+      "built_in_skills": ["decision-journal", "interface-contract", "independent-verification", "submission-gate"],
+      "external_skills": ["impeccable", "react-best-practices", "web-design-guidelines"],
+      "notes": "Only install React-specific skills if the chosen stack is React/Next.js. Avoid elaborate visuals before acceptance criteria are met."
+    },
+    "data-engineering": {
+      "title": "ETL/ELT, databases, data quality and SQL",
+      "signals": ["etl", "elt", "데이터 파이프라인", "pipeline", "sql", "db", "database", "postgres", "sqlite", "csv", "parquet", "정제", "cleaning", "스키마", "schema", "중복", "duplicate"],
+      "agents": ["data-engineer", "backend-engineer", "verification-engineer"],
+      "built_in_skills": ["decision-journal", "data-quality", "interface-contract", "independent-verification", "submission-gate"],
+      "external_skills": ["modern-python", "property-based-testing"],
+      "notes": "Select DB-specific guidance only after the DB engine is established. Test ingestion idempotence, lineage and rollback."
+    },
+    "agent-automation": {
+      "title": "Agentic workflow, tool orchestration and automation",
+      "signals": ["에이전트", "agent", "워크플로", "workflow", "자동화", "automation", "mcp", "tool calling", "도구 호출", "multi-agent", "멀티에이전트", "오케스트레이션", "orchestration"],
+      "agents": ["tooling-engineer", "backend-engineer", "verification-engineer"],
+      "built_in_skills": ["decision-journal", "interface-contract", "independent-verification", "submission-gate"],
+      "external_skills": ["modern-python", "property-based-testing"],
+      "optional_skills": ["mcp-builder"],
+      "notes": "MCP Builder only when an MCP server is required. No external AI service or model connection."
+    },
+    "document-intelligence": {
+      "title": "PDF/XLSX/DOCX extraction and reporting",
+      "signals": ["pdf", "엑셀", "excel", "xlsx", "docx", "문서", "document", "보고서", "report", "표 추출", "extract", "서식", "pptx", "invoice", "청구서"],
+      "agents": ["document-engineer", "data-engineer", "verification-engineer"],
+      "built_in_skills": ["decision-journal", "data-quality", "independent-verification", "submission-gate"],
+      "external_skills": ["pdf", "xlsx"],
+      "optional_skills": ["docx", "pptx"],
+      "notes": "Install document-format skills only for actual input/output formats. Extract source evidence and reconcile totals."
+    },
+    "backend-service": {
+      "title": "APIs, persistence, authentication, integrations",
+      "signals": ["api", "backend", "백엔드", "서버", "server", "인증", "authentication", "인가", "authorization", "권한", "endpoint", "데이터베이스", "database", "docker", "컨테이너", "transaction", "트랜잭션"],
+      "agents": ["backend-engineer", "data-engineer", "verification-engineer"],
+      "built_in_skills": ["decision-journal", "interface-contract", "data-quality", "independent-verification", "submission-gate"],
+      "external_skills": ["modern-python", "property-based-testing"],
+      "notes": "Emphasize server-side authorization, persistence, validation, restart/transaction behavior and deployable local runtime."
+    },
+    "algorithmic": {
+      "title": "Algorithms, computation and exact correctness",
+      "signals": ["알고리즘", "algorithm", "복잡도", "complexity", "greedy", "그리디", "dynamic programming", "dp", "graph", "그래프", "탐색", "search", "sorting", "정렬", "coding challenge", "계산"],
+      "agents": ["algorithm-engineer", "verification-engineer", "optimization-engineer"],
+      "built_in_skills": ["decision-journal", "independent-verification", "optimization-audit", "submission-gate"],
+      "external_skills": ["property-based-testing"],
+      "notes": "Compare against reference solutions on small cases, challenge edge cases and benchmark worst-case complexity."
+    },
+    "simulation-decision": {
+      "title": "Simulation, scenarios and decision support",
+      "signals": ["시나리오", "scenario", "민감도", "sensitivity", "몬테카를로", "monte carlo", "시뮬레이션", "simulation", "what-if", "decision support", "정책", "policy", "forecast", "예측"],
+      "agents": ["data-engineer", "simulation-engineer", "verification-engineer"],
+      "built_in_skills": ["decision-journal", "data-quality", "model-evaluation", "independent-verification", "submission-gate"],
+      "external_skills": ["modern-python", "property-based-testing"],
+      "notes": "Separate historical observations, assumptions and simulated scenarios. Show intervals and sensitivity instead of precise-sounding guesses."
+    },
+    "security-audit": {
+      "title": "Secure architecture, threat model and code review",
+      "signals": ["보안", "security", "취약점", "vulnerability", "threat", "위협", "권한", "authorization", "인증", "authentication", "audit", "검증", "취약", "privacy"],
+      "agents": ["security-engineer", "backend-engineer", "verification-engineer"],
+      "built_in_skills": ["decision-journal", "interface-contract", "independent-verification", "submission-gate"],
+      "external_skills": ["property-based-testing"],
+      "optional_skills": ["secure-workflow-guide"],
+      "notes": "No exfiltration, no external scanning target, no exploit tools. Review only the in-scope local system."
+    }
+  },
+  "external_catalog": {
+    "impeccable": {"repo": "pbakaus/impeccable", "skill": "impeccable", "requires": "Node and npx", "scope": "Frontend work only; avoid Computer Use and browser automation"},
+    "react-best-practices": {"repo": "vercel-labs/agent-skills", "skill": "react-best-practices", "requires": "React or Next.js stack"},
+    "web-design-guidelines": {"repo": "vercel-labs/agent-skills", "skill": "web-design-guidelines", "requires": "Frontend project, network read for guidelines; no task data upload"},
+    "modern-python": {"repo": "trailofbits/skills", "skill": "modern-python", "requires": "Python stack"},
+    "property-based-testing": {"repo": "trailofbits/skills", "skill": "property-based-testing", "requires": "Testable invariants; no compulsory extra dependencies"},
+    "secure-workflow-guide": {"repo": "trailofbits/skills", "skill": "secure-workflow-guide", "requires": "Security scope"},
+    "mcp-builder": {"repo": "anthropics/skills", "skill": "mcp-builder", "requires": "MCP server implementation, not external model connection"},
+    "pdf": {"repo": "anthropics/skills", "skill": "pdf", "requires": "PDF input or output"},
+    "xlsx": {"repo": "anthropics/skills", "skill": "xlsx", "requires": "XLSX input or output"},
+    "docx": {"repo": "anthropics/skills", "skill": "docx", "requires": "DOCX output"},
+    "pptx": {"repo": "anthropics/skills", "skill": "pptx", "requires": "PPTX output"}
+  }
+}
