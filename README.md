@@ -1,5 +1,4 @@
-I build AI agent systems end to end. My flagship, [Artemis](https://github.com/ianlyoo/artemis), is a multi-agent orchestration harness; around it I build MCP servers and the evaluation that proves they work.<br>
-AI 에이전트 시스템을 처음부터 끝까지 만듭니다. 대표작은 멀티 에이전트 오케스트레이션 하네스 [Artemis](https://github.com/ianlyoo/artemis)이고, MCP 서버와 그것이 제대로 동작한다는 걸 증명하는 평가까지 만듭니다.
+I build AI agent systems end to end.<br>
 
 <a href="https://dacon.io/competitions/official/236730/codeshare/14188"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stat-scpc.dark.webp"><img alt="10th of 640 in the Samsung SCPC AI Challenge, 2026. Opens the write-up." src="assets/stat-scpc.light.webp" width="272"></picture></a>
 <picture><source media="(prefers-color-scheme: dark)" srcset="assets/stat-convenein.dark.webp"><img alt="45%+ operating efficiency gain from the automation I shipped at ConveneIn, 2026." src="assets/stat-convenein.light.webp" width="272"></picture>
