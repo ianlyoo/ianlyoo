@@ -65,7 +65,7 @@ Python · TypeScript · Rust (NEAR contracts) · MCP servers · LangGraph · RAG
 - 별 1.86만 개 오픈소스 LLM 프록시 lidge-jun/opencodex 기여자
 
 **프로젝트**
-- **Artemis**: 내 컴퓨터나 늘 켜 둔 서버에서 돌리는 AI 에이전트의 집입니다. PC·맥·폰 브라우저에서 리드 한 명과 대화하고, 승인·비밀값 카드에 답하고, 리드가 쓴 보드를 읽는 동안 여러 AI 코딩 에이전트가 나란히 일하고, 작업자가 아닌 판정자가 결과를 확인합니다. 돈이 나가는 일, 되돌릴 수 없는 삭제, 나 대신 보내는 일은 내 답을 기다리고, 판정에서 떨어진 결과는 다음 작업을 바꾸는 교훈이 됩니다. [v0.4.1](https://github.com/ianlyoo/artemis/releases/tag/v0.4.1) · [2분 시연 영상](https://youtu.be/Yxw6hL3c57o) · 계정 없이 도는 로컬 데모: `artemis demo`.
+- **Artemis**: 내 컴퓨터나 늘 켜 둔 서버에서 돌리는 AI 에이전트의 집입니다. PC·맥·폰 브라우저에서 리드 한 명과 대화하고, 승인·비밀값 카드에 답하고, 리드가 쓴 보드를 읽는 동안 여러 AI 코딩 에이전트가 나란히 일하고, 작업자가 아닌 판정자가 결과를 확인합니다. 돈이 나가는 일, 되돌릴 수 없는 삭제, 나 대신 보내는 일은 내 답을 기다리고, 판정에서 떨어진 결과는 다음 작업을 바꾸는 교훈이 됩니다. [v0.4.1](https://github.com/ianlyoo/artemis/releases/tag/v0.4.1) · [2분 시연 영상](https://youtu.be/xpm92sPcbAo) · 계정 없이 도는 로컬 데모: `artemis demo`.
 - **CaseClerk**: 소규모 PayPal 판매자의 분쟁을 처리하는 AI 에이전트입니다. 분쟁을 읽고 PayPal Disputes API로 증거를 내며, 작은 분쟁은 기한 안에 스스로 답하고 판매자가 정한 선을 넘는 분쟁은 판매자에게 올립니다. PayPal AI Hackathon 출품작입니다.
 - **InvestMCP**: MCP를 쓰는 AI 어시스턴트가 내 증권·크립토 선물 계좌와 공개 시장 데이터, 종목 리서치를 함께 보고 답하게 해 주는 읽기 전용 MCP 서버입니다. 앞서 만든 서버 두 개를 하나로 합쳐 도구 28개를 한 프로세스, 한 인증 경계 안에 넣었습니다.
 - **llm-eval-pipeline**: LLM·RAG 변경 전후를 평가하는 파이프라인입니다. 합성 QA, 규칙·프록시 채점, LLM 판정, lm-eval-harness까지 이어지고, 측정하지 않은 개선은 보고하지 않습니다.
